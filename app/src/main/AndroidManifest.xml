@@ -25,7 +25,8 @@
         <activity android:name=".PopularActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".VegActivity" />
-        <activity android:name=".WhatsNewActivity"></activity>
+        <activity android:name=".WhatsNewActivity" />
+        <activity android:name=".FoodActivity"></activity>
     </application>
 
 </manifest>

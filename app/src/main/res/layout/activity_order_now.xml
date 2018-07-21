@@ -12,10 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="home"/>
 
     </LinearLayout>
 
@@ -39,20 +35,29 @@
         android:layout_weight="1"
         android:orientation="vertical">
         <TextView
+            style="@style/MyTextViewStyle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="Delivery charge"
             android:textSize="24dp"
-            android:layout_weight="1"/>
-        <TextView
+            android:layout_weight=""/>
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Total"
             android:textSize="24dp"
+            android:layout_weight=""/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
             android:text="Order now"
             android:layout_gravity="center"/>
     </LinearLayout>
