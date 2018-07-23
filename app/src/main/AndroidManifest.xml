@@ -26,7 +26,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".VegActivity" />
         <activity android:name=".WhatsNewActivity" />
-        <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".AdFoodActivity"></activity>
     </application>
 
 </manifest>

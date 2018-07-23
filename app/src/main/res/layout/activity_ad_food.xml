@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <EditText
+            style="@style/MyEditTextViewStyle"
+            android:id="@+id/food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+            android:text="Food Name"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/add_image"/>
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:id="@+id/food_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="text"
+            android:text="Description" />
+        <EditText
+            style="@style/MyEditTextViewStyle"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text"
+            />
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add Food"/>
+
+    </LinearLayout>
+</LinearLayout>
